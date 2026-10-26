@@ -55,7 +55,7 @@ test("every locale defines every site message", () => {
 });
 
 test("unsupported locales fall back to English", () => {
-  const i18n = loadI18n("zh");
+  const i18n = loadI18n("sw");
   assert.equal(i18n.locale, "en");
   assert.equal(i18n.t("query.copy"), "Copy");
 });
